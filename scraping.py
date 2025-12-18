@@ -1,29 +1,3 @@
-# from bs4 import beautifulsoup4
-# import requests
-
-# url="https://khwopa.edu.np/"
-# response = requests.get(url)
-
-# soup = beautifulsoup4(response.text, "html.parser")
-
-# title = soup.title.text
-# headings = [h.text.strip() for h in soup.find_all("h1")]
-
-# print("Page Title:", title)
-# print("Headings:")
-
-# for h in headings:
-#     print("-", h)
-
-# import requests
-# from bs4 import BeautifulSoup
-
-# url = "https://books.toscrape.com/"
-# response = requests.get(url)
-
-# soup = BeautifulSoup(response.text, "html.parser")
-
-# print(soup.title.text)
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
